@@ -1,0 +1,45 @@
+/* ======== MEDIA QUERIES ======== */
+
+/* 1️ Vista de tableta (772px) */
+@media screen and (min-width: 772px) {
+    div {
+        width: 45%; /* Ajusta el ancho de los divs */
+        display: inline-block; /* Alinea los divs horizontalmente */
+        vertical-align: top; /* Asegura alineación en la parte superior */
+        text-align: center; /* Centra el contenido */
+    }
+
+    img {
+        max-height: 30vh; /* Las imágenes no deben superar el 30% del viewport */
+        width: 100%; /* Asegura que las imágenes se ajusten al div */
+        object-fit: cover; /* Recorta las imágenes para que llenen el espacio */
+    }
+}
+
+/* 2️ Vista de pantalla grande (998px) */
+@media screen and (min-width: 998px) {
+    div {
+        width: 30%; /* Ahora los divs ocupan el 30% del ancho */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
